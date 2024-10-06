@@ -1,0 +1,17 @@
+.addNewToken {
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    margin-left: 1000px;
+    margin-bottom: 10px;
+    outline: 0;
+    border: 0;
+    cursor: pointer;
+    background-color: #4299e1;
+    border-radius: 4px;
+    padding: 8px 16px;
+    font-size: 14px;
+    font-weight: 700;
+    color: white;
+    line-height: 18px;
+}

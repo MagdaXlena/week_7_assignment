@@ -1,0 +1,82 @@
+.header {
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 100%;
+    padding: 8px;
+    padding-right: 3rem;
+    background: rgba(255, 255, 255, .1);
+    backdrop-filter: blur(3px);
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    border-bottom: 2px solid rgba(255, 255, 255, .1);
+};
+
+.logo {
+    position: relative;
+    font-size: 25px;
+    text-decoration: none;
+    cursor: default;
+}
+
+.link {
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    margin-left: 35px;
+    transform: .4s;
+}
+
+.navbar {
+  margin-right: 70px;
+}
+
+.navbar a:hover {
+    color: #4299e1;
+}
+
+  .rocket {
+    animation: animate 0.1s ease infinite;
+  }
+
+  .rocket img{
+    height: 4rem;
+    padding: 0px 20px 0 20px;
+  
+}
+
+
+  @keyframes animate {
+    0%, 100%{
+      transform: translate(-3px);
+    }
+    50%{
+      transform: translate(3px);
+    }
+  }
+  
+  .rocket::before {
+    position: absolute;
+    content: "";
+    bottom: -100px;
+    left: 2.5em;
+    transform: translate(-50%);
+    background: linear-gradient(#fac001, transparent);
+    width: 8px;
+    height: 100px;
+    border-radius: 10px;
+  }
+  
+  .rocket::after{
+    position: absolute;
+    content: "";
+    bottom: -100px;
+    left: 2.5em;
+    transform: translate(-50%);
+    background: linear-gradient(#fac001, transparent);
+    width: 20px;
+    height: 100px;
+    filter: blur(10px)
+  }
+  

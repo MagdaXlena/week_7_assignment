@@ -1,0 +1,18 @@
+.myPortfolioContainer {
+    min-height: 200vh;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    font-size: 16px;
+}
+.ticker {
+    text-align: start;
+}
+.tokenName {
+    text-align: start;
+}
+td {
+    padding: 10px;
+}
